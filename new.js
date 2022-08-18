@@ -11,7 +11,7 @@ const textractClient = new TextractClient({ region: REGION });
 // Set params
 const params = {
   Document: {
-    Bytes: fs.readFileSync("./invoice.jpeg"),
+    Bytes: fs.readFileSync("./test2.png"),
   },
   FeatureTypes: ["TABLES", "QUERIES"],
   QueriesConfig: {
